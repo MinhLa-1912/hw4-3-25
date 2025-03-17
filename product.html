@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Sản phẩm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>DST Store</h1>
+    <div class="container">
+        <div class="form-container">
+            <h2>Tạo Danh Mục</h2>
+            <input type="text" id="categoryId" placeholder="ID danh mục" readonly>
+            <input type="text" id="categoryName" placeholder="Tên danh mục">
+            <input type="text" id="categoryDescription" placeholder="Mô tả danh mục">
+            <button onclick="addCategory()">Thêm danh mục</button>
+        </div>
+        <div class="form-container">
+            <h2>Tạo Sản Phẩm</h2>
+            <input type="text" id="productId" placeholder="ID sản phẩm" readonly>
+            <input type="text" id="productName" placeholder="Tên sản phẩm">
+            <input type="number" id="productPrice" placeholder="Giá sản phẩm">
+            <input type="number" id="productOldPrice" placeholder="Giá cũ">
+            <select id="productCategory"></select>
+            <input type="text" id="productDescription" placeholder="Mô tả sản phẩm">
+            <input type="text" id="productImage" placeholder="URL hình ảnh">
+            <button onclick="addProduct()">Thêm sản phẩm</button>
+        </div>
+    </div>
+    <h2>Danh sách Danh Mục</h2>
+    <table id="categoriesTable">
+        <tr><th>ID</th><th>Tên</th><th>Mô tả</th></tr>
+    </table>
+    <h2>Danh sách Sản Phẩm</h2>
+    <div class="product-list" id="productsList"></div>
+    <script src ="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    background-image: url(https://www.google.com/imgres?q=arsenal%20logo&imgurl=https%3A%2F%2Fdownload.logo.wine%2Flogo%2FArsenal_F.C.%2FArsenal_F.C.-Logo.wine.png&imgrefurl=https%3A%2F%2Fwww.logo.wine%2Flogo%2FArsenal_F.C.&docid=wz-mKbAWC__f_M&tbnid=bHJmpd8DMTLl5M&vet=12ahUKEwix07LNoZCMAxVYYfUHHV8XKmIQM3oECH4QAA..i&w=3000&h=2000&hcb=2&ved=2ahUKEwix07LNoZCMAxVYYfUHHV8XKmIQM3oECH4QAA);
+}
+.container {
+    display: flex;
+    width: 80%;
+    gap: 20px;
+}
+.form-container {
+    flex: 1;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.821);
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+}
+.product-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
